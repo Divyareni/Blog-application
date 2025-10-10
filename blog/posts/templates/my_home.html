@@ -1,0 +1,15 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block body %}
+        <h1>Details of books</h1>
+        <h1>{{username|capfirst}}</h1>
+        {% for post in posts%}
+        <a href = "{% url 'post' post.id %}"><h1>{{forloop.counter}} - {{post.title|title}}</h1></a>
+        <p>{{post.content}}</p>
+    {% empty %}
+         <h1>No posts available</h1>
+    {% endfor %}
+{% endblock body %}
+    
+
