@@ -2,20 +2,6 @@
 
 A full-stack blog platform allowing users to create, edit, publish, and browse blog posts. Designed to be easy to run and modify — ideal for personal blogs or as a starter project for blogging functionality.
 
----
-
-## 📁 Project Structure
-
-/Blog-application
-│
-├── README.md # Project documentation
-├── /frontend # (Optional) Frontend code (React/Vue/HTML+CSS)
-├── /backend # Server-side application (Express/Django/etc.)
-├── /models / /controllers # Business logic and data models
-├── .env.example # Sample environment config
-├── package.json # Dependencies (Node.js)
-└── Dockerfile / config files
-
 
 ---
 
